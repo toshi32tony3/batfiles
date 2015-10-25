@@ -9,6 +9,8 @@
 ~h
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
 :Diff ~\localfiles\template\local.rc.vim ~\localfiles\local.rc.vim
+:Diff ~\.gitconfig ~\dotfiles\.gitconfig
+:Diff ~\_viminfo ~\batfiles\_viminfo
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
 
