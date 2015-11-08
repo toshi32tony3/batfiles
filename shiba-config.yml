@@ -12,8 +12,8 @@ shortcuts:
   "shift+g": "PageBottom"
   i: ""
   m: ""
-  command+q: "QuitApp"
-  command+w: "QuitApp"
+  ctrl+q: "QuitApp"
+  ctrl+w: "QuitApp"
 file_ext:
   markdown:
     - "md"
