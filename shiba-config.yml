@@ -2,6 +2,9 @@ width: 800
 height: 600
 linter: "mdast-lint"
 lint_options:
+  hard-break-spaces: false
+  heading-style: consistent
+  no-missing-blank-lines: false
   maximum-line-length: false
 drawer:
   responsive: false
