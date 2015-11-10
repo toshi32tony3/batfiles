@@ -13,7 +13,7 @@ mklink %HOME%\.vimshrc %HOME%\dotfiles\.vimshrc
 
 REM for Shiba
 mklink %APPDATA%\Shiba\config.yml %HOME%\batfiles\shiba-config.yml
-mklink %APPDATA%\Shiba\user.css %HOME%\batfiles\shiba-user.css
+copy /Y %HOME%\batfiles\shiba-user.css %APPDATA%\Shiba\user.css
 
 pause
 
