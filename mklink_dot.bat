@@ -11,9 +11,5 @@ mklink %HOME%\.gvimrc %HOME%\dotfiles\.gvimrc
 mklink %VIM%\gvimrc_local.vim %HOME%\dotfiles\gvimrc_local.vim
 mklink %HOME%\.vimshrc %HOME%\dotfiles\.vimshrc
 
-REM for Shiba
-mklink %APPDATA%\Shiba\config.yml %HOME%\batfiles\shiba-config.yml
-copy /Y %HOME%\batfiles\shiba-user.css %APPDATA%\Shiba\user.css
-
 pause
 
