@@ -8,6 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
 :Diff ~\localfiles\template\local.rc.vim ~\localfiles\local.rc.vim
 :Diff ~\.gitconfig ~\dotfiles\.gitconfig
 :Diff ~\_viminfo ~\batfiles\_viminfo
@@ -23,16 +24,12 @@
 # レジスタ:
 
 # ファイルマーク:
-'0  1  0  ~\localfiles\local.rc.vim
+'0  1  0  ~\dotfiles\.memo
 
 # ジャンプリスト (新しいものが先):
--'  1  0  ~\localfiles\local.rc.vim
--'  1  0  ~\localfiles\template\local.rc.vim
+-'  1  0  ~\dotfiles\.memo
 
 # ファイル内マークの履歴 (新しいものから古いもの):
 
-> ~\localfiles\template\local.rc.vim
-	"	1	0
-
-> ~\localfiles\local.rc.vim
+> ~\dotfiles\.memo
 	"	1	0
