@@ -25,9 +25,13 @@
 	
 "d	CHAR	0
 	
-"f@	CHAR	0
+"f	CHAR	0
 	
-"u@	CHAR	0
+"j	CHAR	0
+	}
+"k	CHAR	0
+	{
+"u	CHAR	0
 	
 
 # ファイルマーク:
