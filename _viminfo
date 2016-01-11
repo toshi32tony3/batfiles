@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
-:q
+:Diff ~\_viminfo ~\batfiles\_viminfo
 :Diff ~\localfiles\template\local.rc.vim ~\localfiles\local.rc.vim
 :Diff ~\.gitconfig ~\dotfiles\.gitconfig
 
@@ -21,6 +21,14 @@
 # 入力行 項目の履歴 (新しいものから古いものへ):
 
 # レジスタ:
+"b	CHAR	0
+	
+"d	CHAR	0
+	
+"f@	CHAR	0
+	
+"u@	CHAR	0
+	
 
 # ファイルマーク:
 '0  1  0  ~\dotfiles\.memo
